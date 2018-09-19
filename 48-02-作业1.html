@@ -1,0 +1,73 @@
+<!doctype html><!--申请当前页面的文档类型-->
+
+<html lang='en'>
+
+<head>
+	<!-- 声明当前页面编码集：gbk gb2313中文编码 utf-8国际编码 -->
+	<meta http-equiv='Content-type' content='text/html' charset='UTF-8'>
+	<meta name='Generator' content='EditPlus®'>
+	<meta name='Author' content=''>
+	<meta name='Keywords' content='关键词,关键词,关键词'><!--SEO搜索关键词最多31个字-->
+	<meta name='Description' content='描述'><!--SEO搜索描述信息标准字小于等于46个字-->
+	<title>第一章-JavaScript作业-01</title><!--网页的标题-->
+
+	<style type='text/css'>
+		*{
+			margin:0;
+			padding:0;
+		}
+		a{
+			text-decoration:none;
+			font:12px '微软雅黑','宋体';
+			color:#666;
+		}
+		li{
+			list-style:none;
+			}
+		img{
+			border:none;
+		}
+		body{
+			font:12px '微软雅黑','宋体';
+			color:#666;
+			line-height:1.5em;
+		}
+		.clearfix:after{
+			content:'';
+			display:block;
+			clear:both;
+		}/*清除浮动的方法*/
+		.clearfix{
+			zoom:1;
+		}/*清除浮动兼容低版本ie*/
+		#wrap{
+			width: 100px;
+			height: 100px;
+			margin: 100px auto;
+			background-color: #f10215;
+			border-radius: 10px;
+		}
+		#wrap p{
+			color: #fff;
+			text-align: center;
+			line-height: 100px;
+		}
+	</style>
+</head>
+
+<body>
+	<!--div start-->
+	<div id="wrap">
+		<p>快请点我吧</p>
+	</div>
+	<!--div end-->
+	<script type="text/javascript">
+		let oWrap = document.getElementById('wrap'),
+			oP = oWrap.getElementsByTagName('p')[0];
+		oWrap.onclick = function(){
+		    oP.innerHTML = 'ゞ灬冰封Ｅиɡ';
+		}
+	</script>
+</body>
+
+</html>
